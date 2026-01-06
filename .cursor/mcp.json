@@ -1,0 +1,38 @@
+{
+  "mcpServers": {
+    "memento": {
+      "url": "https://mcp.supabase.com/mcp?project_ref=nhzorpugwaeonrehtllx",
+      "headers": {}
+    },
+    "mail": {
+      "url": "https://mcp.supabase.com/mcp?project_ref=cvksdolidkwccwgocdfr",
+      "headers": {}
+    },
+    "Ref": {
+      "type": "http",
+      "url": "https://api.ref.tools/mcp?apiKey=ref-fcec8637ea66ca53f608",
+      "headers": {}
+    },
+    "exa": {
+      "type": "http",
+      "url": "https://mcp.exa.ai/mcp",
+      "headers": {}
+    },
+    "postmark": {
+      "env": {
+        "DEFAULT_SENDER_EMAIL": "your-sender-email@example.com",
+        "POSTMARK_SERVER_TOKEN": "your-postmark-server-token",
+        "DEFAULT_MESSAGE_STREAM": "your-message-stream"
+      },
+      "command": "node path/to/postmark-mcp/index.js",
+      "args": []
+    },
+    "GitKraken": {
+      "command": "/Users/admin/Library/Application Support/Cursor/User/globalStorage/eamodio.gitlens/gk",
+      "type": "stdio",
+      "name": "GitKraken",
+      "args": ["mcp", "--host=cursor", "--source=gitlens", "--scheme=cursor"],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "recommendations": [
+    // Code Quality & Formatting
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+
+    // Git Integration
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "mhutchie.git-graph",
+
+    // Productivity & Navigation
+    "alefragnani.bookmarks",
+    "christian-kohler.path-intellisense",
+    "gruntfuggly.todo-tree",
+    "wix.vscode-import-cost",
+
+    // HTML/CSS/Web Development
+    "formulahendry.auto-rename-tag",
+    "pranaygp.vscode-css-peek",
+    "zignd.html-css-class-completion",
+
+    // Themes & Icons
+    "pkief.material-icon-theme",
+
+    // Background & Customization
+    "shalldie.background",
+
+    // Data & Files
+    "mechatroner.rainbow-csv"
+  ],
+  "unwantedRecommendations": [
+    // Optional - remove if team doesn't need these
+    "ms-python.python",
+    "ms-python.debugpy",
+    "denoland.vscode-deno",
+    "openai.chatgpt",
+    "ritwickdey.liveserver"
+  ]
+}
